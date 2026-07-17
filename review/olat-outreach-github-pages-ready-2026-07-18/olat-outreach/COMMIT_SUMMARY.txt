@@ -1,0 +1,12 @@
+Ready to publish with GitHub Pages (/docs)
+
+Public page:
+https://ola-j-py.github.io/olat-outreach/review/osea-malibu/
+
+Changes:
+- Added docs/ as the GitHub Pages publishing source
+- Added public OSEA Malibu snapshot
+- Added noindex/noarchive metadata and robots.txt
+- Kept Japanese/internal research/email/CRM files outside docs/
+- Updated OSEA email and follow-up drafts with the public URL
+- Updated the OSEA CRM row
