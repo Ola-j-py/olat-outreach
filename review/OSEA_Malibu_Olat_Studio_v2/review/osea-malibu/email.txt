@@ -1,0 +1,16 @@
+Subject: A focused Japan entry idea for OSEA
+
+Hi {{FirstName}},
+
+I reviewed OSEA’s public positioning and prepared a short Japan opportunity snapshot for your team.
+
+The clearest starting hypothesis is a focused body-care test around the Undaria range, rather than a broad launch. OSEA already has a distinct seaweed story, clear product candidates, and published study results for selected products. The main questions are whether the Japan price works, which claims and labels can be used, and which products and channel should be tested first.
+
+Here is the snapshot:
+{{SnapshotURL}}
+
+Would you like me to prepare the USD $29 Business Opportunity Report for OSEA? The fee is credited toward a Japan Store Launch or Monthly Support engagement.
+
+Best,
+{{YourName}}
+Olat Studio
