@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="A focused Japan opportunity snapshot prepared for Beam Paints by Olat Studio.">
+  <title>Beam Paints in Japan — Opportunity Snapshot</title>
+  <style>
+    :root {
+      --ink: #17342f;
+      --ink-soft: #47635e;
+      --paper: #f7f2e8;
+      --paper-2: #eee6d7;
+      --white: #fffdf8;
+      --cedar: #a45136;
+      --ochre: #d49a38;
+      --lake: #35757b;
+      --sage: #789476;
+      --line: rgba(23, 52, 47, 0.14);
+      --shadow: 0 24px 70px rgba(49, 54, 42, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 8% 3%, rgba(212, 154, 56, 0.14), transparent 25rem),
+        radial-gradient(circle at 96% 14%, rgba(53, 117, 123, 0.11), transparent 30rem),
+        var(--paper);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+    .shell { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(23, 52, 47, 0.08);
+      background: rgba(247, 242, 232, 0.88);
+      backdrop-filter: blur(18px);
+    }
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      font-size: 13px;
+      letter-spacing: .03em;
+    }
+    .brand-lockup { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--cedar); box-shadow: 13px 0 0 var(--ochre), 26px 0 0 var(--lake); margin-right: 26px; }
+    .nav-label { color: var(--ink-soft); text-align: right; }
+
+    .hero { padding: 100px 0 78px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr); gap: 72px; align-items: center; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      color: var(--cedar);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+    h1 { margin: 0; max-width: 760px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(48px, 7.6vw, 88px); line-height: .98; letter-spacing: -.055em; font-weight: 500; }
+    .hero-copy { margin: 30px 0 0; max-width: 650px; color: var(--ink-soft); font-size: clamp(18px, 2.1vw, 22px); line-height: 1.55; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .pill { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,253,248,.58); color: var(--ink-soft); font-size: 12px; }
+
+    .palette-card {
+      position: relative;
+      min-height: 470px;
+      border: 1px solid rgba(255,255,255,.65);
+      border-radius: 34px;
+      overflow: hidden;
+      background: #eadfc9;
+      box-shadow: var(--shadow);
+    }
+    .swatch { position: absolute; border-radius: 50%; filter: saturate(.88); }
+    .swatch.one { width: 250px; height: 250px; left: -36px; top: -28px; background: var(--ochre); }
+    .swatch.two { width: 300px; height: 300px; right: -110px; top: 62px; background: var(--lake); }
+    .swatch.three { width: 260px; height: 260px; left: 38px; bottom: -112px; background: var(--cedar); }
+    .swatch.four { width: 145px; height: 145px; right: 72px; bottom: 36px; background: var(--sage); }
+    .grain { position: absolute; inset: 0; opacity: .24; background-image: repeating-radial-gradient(circle at 22% 30%, rgba(255,255,255,.4) 0 1px, transparent 1px 4px); mix-blend-mode: soft-light; }
+    .palette-caption { position: absolute; inset: auto 24px 24px 24px; padding: 18px 20px; border: 1px solid rgba(255,255,255,.55); border-radius: 18px; color: white; background: rgba(23, 52, 47, .45); backdrop-filter: blur(16px); }
+    .palette-caption strong { display: block; font-size: 15px; }
+    .palette-caption span { display: block; margin-top: 2px; font-size: 12px; opacity: .82; }
+
+    section { padding: 92px 0; border-top: 1px solid var(--line); }
+    .section-head { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 48px; margin-bottom: 44px; }
+    .section-kicker { color: var(--cedar); font-size: 12px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+    h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(34px, 5vw, 56px); font-weight: 500; line-height: 1.08; letter-spacing: -.035em; }
+    h3 { margin: 0; font-size: 17px; line-height: 1.35; }
+    p { margin: 0; }
+    .lede { max-width: 800px; color: var(--ink-soft); font-size: 20px; line-height: 1.7; }
+
+    .concept-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 20px; }
+    .card { border: 1px solid var(--line); border-radius: 24px; background: rgba(255,253,248,.72); box-shadow: 0 12px 35px rgba(49,54,42,.05); }
+    .concept { padding: 34px; }
+    .label { color: var(--cedar); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .concept h3 { margin-top: 14px; font-family: Georgia, "Times New Roman", serif; font-size: 34px; font-weight: 500; letter-spacing: -.025em; }
+    .concept p { margin-top: 14px; max-width: 640px; color: var(--ink-soft); }
+    .sku-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
+    .sku { padding: 8px 11px; border-radius: 10px; background: var(--paper-2); color: var(--ink); font-size: 12px; }
+    .metric { padding: 34px; display: flex; flex-direction: column; justify-content: space-between; background: var(--ink); color: var(--white); }
+    .metric .label { color: #e8bd6b; }
+    .metric strong { display: block; margin: 18px 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 54px; line-height: 1; font-weight: 500; letter-spacing: -.05em; }
+    .metric p { font-size: 13px; color: rgba(255,255,255,.75); }
+    .metric small { display: block; margin-top: 18px; color: rgba(255,255,255,.52); font-size: 10px; line-height: 1.5; }
+
+    .index-wrap { display: grid; grid-template-columns: 310px minmax(0, 1fr); gap: 20px; }
+    .index-score { padding: 36px; color: var(--white); background: var(--cedar); }
+    .index-score .label { color: rgba(255,255,255,.74); }
+    .score { margin-top: 22px; font-family: Georgia, "Times New Roman", serif; font-size: 84px; line-height: .9; letter-spacing: -.06em; }
+    .score span { font-family: Inter, sans-serif; font-size: 20px; letter-spacing: 0; opacity: .68; }
+    .index-score p { margin-top: 28px; color: rgba(255,255,255,.8); font-size: 13px; }
+    .strengths { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .strength { padding: 23px 24px; }
+    .strength-top { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
+    .strength strong { font-size: 22px; }
+    .strength p { margin-top: 8px; color: var(--ink-soft); font-size: 13px; }
+
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .point { padding: 26px; min-height: 220px; }
+    .point-num { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--paper-2); color: var(--cedar); font-size: 12px; font-weight: 800; }
+    .point h3 { margin-top: 34px; }
+    .point p { margin-top: 10px; color: var(--ink-soft); font-size: 13px; }
+
+    .questions { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .question { padding: 26px 28px; display: grid; grid-template-columns: 32px 1fr; gap: 16px; align-items: start; }
+    .question svg { width: 24px; height: 24px; color: var(--lake); }
+    .question p { margin-top: 7px; color: var(--ink-soft); font-size: 13px; }
+
+    .roadmap { display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,253,248,.72); }
+    .phase { min-height: 250px; padding: 28px; border-right: 1px solid var(--line); }
+    .phase:last-child { border-right: 0; }
+    .phase .phase-label { color: var(--cedar); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .phase h3 { margin-top: 34px; }
+    .phase p { margin-top: 10px; color: var(--ink-soft); font-size: 13px; }
+
+    .launch-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .launch-card { padding: 30px; }
+    .launch-card p { margin-top: 11px; color: var(--ink-soft); font-size: 14px; }
+    .launch-card.accent { color: var(--white); background: var(--lake); }
+    .launch-card.accent p { color: rgba(255,255,255,.78); }
+
+    .next { padding-bottom: 110px; }
+    .offer { position: relative; overflow: hidden; padding: 48px; color: var(--white); background: var(--ink); }
+    .offer::after { content: ""; position: absolute; width: 340px; height: 340px; border-radius: 50%; right: -100px; bottom: -180px; background: var(--ochre); opacity: .75; }
+    .offer-inner { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 50px; align-items: end; }
+    .offer .label { color: #e8bd6b; }
+    .offer h2 { margin-top: 16px; max-width: 750px; }
+    .offer p { margin-top: 18px; max-width: 740px; color: rgba(255,255,255,.72); }
+    .price { min-width: 150px; font-family: Georgia, "Times New Roman", serif; font-size: 60px; line-height: 1; text-align: right; }
+    .price span { display: block; margin-top: 9px; font-family: Inter, sans-serif; font-size: 11px; color: rgba(255,255,255,.6); letter-spacing: .08em; text-transform: uppercase; }
+    .cta-note { margin-top: 24px !important; color: rgba(255,255,255,.9) !important; font-weight: 700; }
+
+    .sources { padding: 42px 0 70px; border-top: 1px solid var(--line); }
+    .sources-grid { display: grid; grid-template-columns: 240px minmax(0,1fr); gap: 48px; }
+    .source-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 30px; color: var(--ink-soft); font-size: 12px; }
+    .source-item { padding-bottom: 10px; border-bottom: 1px solid rgba(23,52,47,.08); }
+    footer { padding: 24px 0 44px; color: var(--ink-soft); font-size: 11px; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 24px; border-top: 1px solid var(--line); padding-top: 22px; }
+
+    @media (max-width: 900px) {
+      .hero-grid, .concept-grid, .index-wrap { grid-template-columns: 1fr; }
+      .hero { padding-top: 76px; }
+      .palette-card { min-height: 380px; }
+      .grid-4, .roadmap { grid-template-columns: 1fr 1fr; }
+      .phase:nth-child(2) { border-right: 0; }
+      .phase:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .offer-inner { grid-template-columns: 1fr; }
+      .price { text-align: left; }
+    }
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 28px, 1120px); }
+      .nav-label { display: none; }
+      .nav-inner { min-height: 60px; }
+      .hero { padding: 58px 0 64px; }
+      h1 { font-size: 48px; }
+      section { padding: 70px 0; }
+      .section-head, .sources-grid { grid-template-columns: 1fr; gap: 16px; }
+      .strengths, .grid-4, .questions, .roadmap, .launch-grid, .source-list { grid-template-columns: 1fr; }
+      .phase { border-right: 0; border-bottom: 1px solid var(--line); min-height: auto; }
+      .phase:last-child { border-bottom: 0; }
+      .point { min-height: auto; }
+      .concept, .metric, .index-score, .offer { padding: 28px; }
+      .score { font-size: 72px; }
+      .footer-inner { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="shell nav-inner">
+      <div class="brand-lockup"><span class="dot" aria-hidden="true"></span>Olat Studio × Beam Paints</div>
+      <div class="nav-label">Japan Opportunity Snapshot · 18 July 2026</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="shell hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Focused Japan entry hypothesis</div>
+          <h1>Portable colour stories for Japan.</h1>
+          <p class="hero-copy">A small, story-led retail pilot can introduce Beam Paints through the places where material quality, craft process and thoughtful packaging are already part of the purchase.</p>
+          <div class="hero-meta">
+            <span class="pill">Independent art-supply shops</span>
+            <span class="pill">Museum &amp; design stores</span>
+            <span class="pill">Craft-led lifestyle retail</span>
+          </div>
+        </div>
+        <div class="palette-card" aria-label="Abstract pigment palette inspired by Beam Paints materials">
+          <span class="swatch one"></span><span class="swatch two"></span><span class="swatch three"></span><span class="swatch four"></span><span class="grain"></span>
+          <div class="palette-caption"><strong>Paint as material, object and story</strong><span>A retail presentation designed to invite touch, swatching and discovery.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Executive summary</div>
+          <div><h2>Lead with the object, not a broad colour range.</h2></div>
+        </div>
+        <p class="lede">Beam Paints combines handmade watercolour, high pigment content, a distinctive Paintstone format and plastic-free presentation. In Japan, the clearest first step is a tightly edited assortment that retailers can explain and demonstrate in minutes—before considering wider distribution.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Entry concept</div>
+          <div><h2>A three-SKU “Portable Colour Stories” pilot.</h2></div>
+        </div>
+        <div class="concept-grid">
+          <article class="card concept">
+            <div class="label">Recommended retail test</div>
+            <h3>Small enough to learn quickly. Distinctive enough to earn a conversation.</h3>
+            <p>Start with an accessible trial item, a tactile core palette and one giftable set. Pair the assortment with a Japanese swatch card and a short, brand-approved process story.</p>
+            <div class="sku-row">
+              <span class="sku">Beam Travel Card</span>
+              <span class="sku">Selected Paintstone Palette</span>
+              <span class="sku">Compact Gift Set</span>
+            </div>
+          </article>
+          <article class="card metric">
+            <div>
+              <div class="label">Japan category signal · 2024</div>
+              <strong>US$7.73M</strong>
+              <p>Imported artists’ colours across HS 321310 and 321390.</p>
+            </div>
+            <small>Trade value only—not total market size. Used here as evidence that imported artist-colour products already enter Japan.</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Opportunity strength index</div>
+          <div><h2>Strong foundations for a focused validation.</h2></div>
+        </div>
+        <div class="index-wrap">
+          <article class="card index-score">
+            <div class="label">Olat Studio assessment</div>
+            <div class="score">92<span>/100</span></div>
+            <p>The strongest case is a specialist retail pilot built around product demonstration, material provenance and a deliberately narrow assortment.</p>
+          </article>
+          <div class="strengths">
+            <article class="card strength"><div class="strength-top"><h3>Product distinctiveness</h3><strong>96</strong></div><p>Paintstones and wood-based presentation create immediate shelf and demo value.</p></article>
+            <article class="card strength"><div class="strength-top"><h3>Story-led merchandising</h3><strong>94</strong></div><p>The maker, materials and place are meaningful when communicated in the brand’s own terms.</p></article>
+            <article class="card strength"><div class="strength-top"><h3>Small-pilot fit</h3><strong>89</strong></div><p>Travel cards, palettes and gift sets support a clear price ladder and a compact first order.</p></article>
+            <article class="card strength"><div class="strength-top"><h3>Retail sampling fit</h3><strong>86</strong></div><p>Swatches and short workshops can make product quality visible without a large launch.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">What stands out</div>
+          <div><h2>Four strengths worth translating into a Japan pilot.</h2></div>
+        </div>
+        <div class="grid-4">
+          <article class="card point"><div class="point-num">01</div><h3>A tactile format</h3><p>Paintstones wrapped in beeswaxed cloth and palettes using wood offcuts feel different before the first brushstroke.</p></article>
+          <article class="card point"><div class="point-num">02</div><h3>Brand-authored provenance</h3><p>Anishnaabe Kwe ownership and a multigenerational relationship with pigment provide substance beyond packaging aesthetics.</p></article>
+          <article class="card point"><div class="point-num">03</div><h3>Wholesale readiness</h3><p>The official FAQ invites wholesale enquiries and the brand already works with independent retailers and museum stores.</p></article>
+          <article class="card point"><div class="point-num">04</div><h3>Visible market whitespace</h3><p>The current official stockist page lists Canada, the UK and the US, with no Japan section visible at the time of review.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Key questions to validate</div>
+          <div><h2>Answer these before approaching retailers.</h2></div>
+        </div>
+        <div class="questions">
+          <article class="card question"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M3 12h18"/></svg><div><h3>Wholesale economics</h3><p>MOQ, lead time, export carton size, recommended retail pricing and any territory expectations for Japan.</p></div></article>
+          <article class="card question"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m5 12 4 4L19 6"/></svg><div><h3>Product documentation</h3><p>Current SKU-level ingredient/CAS data, SDS coverage and the exact language permitted for safety claims.</p></div></article>
+          <article class="card question"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg><div><h3>Story permissions</h3><p>Approved Japanese translations for brand, material and cultural context—including product names that should remain untranslated.</p></div></article>
+          <article class="card question"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 4a8 8 0 1 0 8 8M12 4v8h8"/></svg><div><h3>Pilot decision rule</h3><p>What level of retailer interest, sample requests or first-order volume would justify a second test.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Recommended validation</div>
+          <div><h2>A compact path from evidence to first order.</h2></div>
+        </div>
+        <div class="roadmap">
+          <article class="phase"><div class="phase-label">Phase 01</div><h3>Confirm the offer</h3><p>Select three SKUs, wholesale terms and the approved product story for Japan.</p></article>
+          <article class="phase"><div class="phase-label">Phase 02</div><h3>Clear the basics</h3><p>Confirm classification, ingredients, safety copy, importer details and landed-cost assumptions.</p></article>
+          <article class="phase"><div class="phase-label">Phase 03</div><h3>Test six buyers</h3><p>Approach a narrow mix of art-supply, museum/design and craft-led stores with samples and a one-page sell sheet.</p></article>
+          <article class="phase"><div class="phase-label">Phase 04</div><h3>Run one micro-drop</h3><p>Use a swatch demo or short workshop to measure conversion, product questions and repeat interest.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-kicker">Launch design</div>
+          <div><h2>Keep the first test precise and respectful.</h2></div>
+        </div>
+        <div class="launch-grid">
+          <article class="card launch-card"><h3>Assortment</h3><p>Use a simple entry/core/gift price ladder. Avoid introducing the full colour system before the retailer understands what customers respond to.</p></article>
+          <article class="card launch-card"><h3>Merchandising</h3><p>Include one swatch surface, one process card and a compact explanation of materials. Let the product demonstrate the claim.</p></article>
+          <article class="card launch-card"><h3>Localization</h3><p>Use brand-approved Japanese copy. Preserve names and cultural context where translation would flatten meaning or create misrepresentation.</p></article>
+          <article class="card launch-card accent"><h3>Regulatory considerations</h3><p>Confirm HS classification, screen ingredient/CAS information against Japanese chemical rules, and prepare Japanese use/safety information with the local importer before sale.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="next">
+      <div class="shell">
+        <article class="card offer">
+          <div class="offer-inner">
+            <div>
+              <div class="label">Next step</div>
+              <h2>Business Opportunity Report — USD $29</h2>
+              <p>Includes Japan market and category sizing, a focused competitor review, pricing and positioning insights, recommended entry products, and a practical Japan validation roadmap. Credited toward a Japan Store Launch or Monthly Support engagement.</p>
+              <p class="cta-note">Reply “Japan report” to the email that shared this snapshot.</p>
+            </div>
+            <div class="price">$29<span>one-time</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="sources">
+      <div class="shell sources-grid">
+        <div class="section-kicker">Public sources</div>
+        <div class="source-list">
+          <div class="source-item">Beam Paints — About Us / Contact</div>
+          <div class="source-item">Beam Paints — FAQ / Safe Painting</div>
+          <div class="source-item">Beam Paints — Collections</div>
+          <div class="source-item">Beam Paints — Find Us in Stores</div>
+          <div class="source-item">Beam Paints — Watercolors Safety Data Sheet</div>
+          <div class="source-item">World Bank WITS / UN Comtrade — Japan HS 321310 &amp; 321390 imports</div>
+          <div class="source-item">NITE — Chemical Risk Information Platform</div>
+          <div class="source-item">Consumer Affairs Agency — Consumer Safety</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner"><span>Prepared independently by Olat Studio for Beam Paints.</span><span>Research checked 18 July 2026 · Japan</span></div>
+  </footer>
+</body>
+</html>
